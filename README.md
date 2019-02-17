@@ -4,6 +4,8 @@ This is a website holding my curriculum vitae. It has been generated using [Hugo
 
 ### Modifications
 
+You need to install [Hugo](https://github.com/gohugoio/hugo "Hugo's github repository") beforehand.
+
 To make text modification, update the markdown file name 'config.toml'.
 To see your changes, type 'hugo server -D' and go to http://localhost:1313/Curriculum_Vitae/.
 Changes are in real time.
