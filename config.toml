@@ -2,7 +2,7 @@
 
 languageCode = "en-us"
 title = "Curriculum vitae Site"
-baseurl = "http://example.org/"
+baseurl = "https://liyra.github.io/Curriculum_Vitae/"
 theme = "orbit"
 publishDir = "docs"
 
@@ -14,8 +14,8 @@ disable404 = true
 [params]
 
 # Meta
-    description = "Hugo Responsive Resume/CV Theme for Developers"
-    author = "Pavel Kanyshev"
+    description = "Alexandre Deneuve curriculum vitae website"
+    author = "Alexandre Deneuve"
 
 # Theme styles
 
@@ -216,4 +216,4 @@ disable404 = true
     # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
 
     [params.footer]
-        copyright = ""
+        copyright = "This website has been generated with Hugo. The theme is called Hugo Orbit Theme."
