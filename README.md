@@ -5,10 +5,12 @@ This is a website holding my curriculum vitae. It has been generated using [Hugo
 ### Modifications
 
 To make text modification, update the markdown file name 'config.toml'.
-To see your changes, type 'hugo server -D' and go to http://localhost:1313/Curriculum_Vitae/
+To see your changes, type 'hugo server -D' and go to http://localhost:1313/Curriculum_Vitae/.
 Changes are in real time.
 
 To change the profile image, or any modifications in the external resources, create the new file with the appropriate path at the root of the repository.
+
+To generate the files, just type 'hugo' and the docs folder will be updated.
 
 ### Rights
 
