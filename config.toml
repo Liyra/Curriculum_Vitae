@@ -163,7 +163,7 @@ disable404 = true
 
         [[params.projects.list]]
         title = "Currimculum Vitae"
-        url = "https://github.com/Liyra/website"
+        url = "https://github.com/Liyra/Curriculum_Vitae"
         tagline = "Curriculum Vitae website."
 
         [[params.projects.list]]
