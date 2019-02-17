@@ -1,0 +1,219 @@
+# Page settings
+
+languageCode = "en-us"
+title = "Curriculum vitae Site"
+baseurl = "http://example.org/"
+theme = "orbit"
+publishDir = "docs"
+
+# Do not build files for websites. Need them? Set to false
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+[params]
+
+# Meta
+    description = "Hugo Responsive Resume/CV Theme for Developers"
+    author = "Pavel Kanyshev"
+
+# Theme styles
+
+    # The original template comes with 6 colour schemes. You may choose styles below.
+    # "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
+    # are available. Also the source LESS files are included so
+    # it’s quick and easy to change the styling and colour scheme.
+
+    styles = "styles-6.css"
+
+# Sidebar sections
+
+    # Profile section
+    [params.profile]
+        name = "Alexandre Deneuve"
+        tagline = "Software engineer"
+        avatar = "profile.png"
+
+    # Contact section
+    [params.contact]
+        enable = true
+
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: alexandre.deneuve@outlook.com"
+        title = "alexandre.deneuve"
+
+        [[params.contact.list]]
+        class = "phone"
+        icon = "fa-phone"
+        url = "tel:+1 438 922 3822"
+        title = "+1 438 922 3822"
+
+        [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-linkedin"
+        url = "//linkedin.com/in/alexandre-deneuve-16bb0a25/"
+        title = "/in/alexandre-deneuve"
+
+        [[params.contact.list]]
+        class = "github"
+        icon = "fa-github"
+        url = "//github.com/Liyra"
+        title = "Liyra"
+
+        [[params.contact.list]]
+        class = "website"
+        icon = "fa-pagelines"
+        url = "//gw.geneanet.org/alexandredeneuve?lang=en&p=alexandre+benoit+julien&n=deneuve&oc=0"
+        title = "alexandredeneuve"
+
+    # Education section
+    [params.education]
+        enable = true
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "Engineering degree"
+        college = "ESIGELEC"
+        dates = "2011 - 2016"
+
+        [[params.education.list]]
+        degree = "Exchange semester"
+        college = "Åbo Akademi University"
+        dates = "2015 - 2015"
+
+        [[params.education.list]]
+        degree = "Exchange semester"
+        college = "Aarhus Universitet"
+        dates = "2014 - 2014"
+
+    # Languages section
+    [params.language]
+        enable = true
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "French"
+        level = "Native"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Professional"
+
+        [[params.language.list]]
+        language = "Spanish"
+        level = "Basics"
+
+    # Interests section
+    [params.interests]
+        enable = true
+        title = "Interests"
+
+        [[params.interests.list]]
+        interest = "Saxophone"
+
+        [[params.interests.list]]
+        interest = "Ice skating"
+
+        [[params.interests.list]]
+        interest = "Genealogy"
+
+# Main body sections
+
+    # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
+
+    # Summary section
+    [params.summary]
+        enable = true
+        icon = "fa-user"
+        title = "Career Profile"
+        summary = "Software engineer with 3 years of experience, aiming at beign language agnostic: 1 year of C++, 1 year and a half of Java, 6 months of Python and familiar with best practices in the industry: CI/CD, TDD, Agile methodology. Eager to learn new technologies, and new languages. Bilingual French / English"
+
+    # Experiences section
+    [params.experiences]
+        enable = true
+        icon = "fa-briefcase"
+        title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "Software Developer"
+        dates = "Jan 2018 - Present"
+        company = "Expertus Technologies, Montréal, Canada"
+        details = "Creation of a serverless web application, with CI/CD pipeline on AWS solutions. R&D software development in Python 3 with Amazon Web Services (Lambda, S3, API Gateway and Route53).\n\nCreation of CI/CD pipeline, monitoring and alerting (Prometheus, Grafana, LogStash) solutions on AWS cluster. DevOps, Kafka, Docker, Jenkins, Kubernetes, Prometheus, ELK, AWS, Spring Boot, Java 8 & Python 3.\n\nMigration WebSphere6 to Jboss/Wildfly, software maintenance on production application IBM WAS/DB2"
+
+        [[params.jobs.list]]
+        position = "R&D Software engineer"
+        dates = "Jun 2016 - Jan 2018"
+        company = "Cosmo Tech, Lyon, France"
+        details = "Developer on a desktop application (C++) allowing users to create a model of a complex system, and generate a simulator based on that model. C++11 on windows and linux.\n\nIntegration of simulators into a Java web application, with parallel processing. Java 8, Java EE, Spring Framework and Apache Spark\n\nDevelopment of tools to help with every day development tasks. Scrum method, Atlassian tools and Git versioning system."
+
+        [[params.jobs.list]]
+        position = "Intern Software Engineer"
+        dates = "Jan 2016 - Jun 2016"
+        company = "The Cosmo Company, Lyon, France"
+        details = "Code optimization: Refactoring a simulator to improve performances, both in execution time and memory usage, and keeping the same behavior. Heavy usage of C++ metaprogramming."
+
+    # Projects section
+    [params.projects]
+        enable = true
+        icon = "fa-archive"
+        title = "Projects"
+        intro = "Heavily reporting bugs and suggestions to all the open source libraries used over the differents projects worked on."
+
+        [[params.projects.list]]
+        title = "Currimculum Vitae"
+        url = "https://github.com/Liyra/website"
+        tagline = "Curriculum Vitae website."
+
+        [[params.projects.list]]
+        title = "Archive script"
+        url = "https://github.com/Liyra/ArchiveScript"
+        tagline = "Script to download resources from archives websites."
+
+        [[params.projects.list]]
+        title = "Test Expertus"
+        url = "https://github.com/Liyra/SpringWebsite"
+        tagline = "Test done for recruitment process."
+
+    # Skills section
+    [params.skills]
+        enable = true
+        icon = "fa-rocket"
+        title = "Skills & Proficiency"
+
+        [[params.skills.list]]
+        skill = "Python"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "Java"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "MySQL, PostgreSQL"
+        level = "90%"
+
+        [[params.skills.list]]
+        skill = "Amazon Web Services"
+        level = "80%"
+
+        [[params.skills.list]]
+        skill = "Javascript"
+        level = "70%"
+
+        [[params.skills.list]]
+        skill = "C++"
+        level = "70%"
+
+    # Footer section
+
+    # The original template is released under the Creative Commons Attribution 3.0 License.
+    # Please keep the original attribution link when using for your own project.
+    # If you'd like to use the template without the attribution,
+    # you can check out other license options via template author's website: themes.3rdwavemedia.com
+    #
+    # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
+
+    [params.footer]
+        copyright = ""
