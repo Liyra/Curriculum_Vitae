@@ -199,11 +199,11 @@ disable404 = true
         level = "80%"
 
         [[params.skills.list]]
-        skill = "Javascript"
-        level = "70%"
+        skill = "C++"
+        level = "80%"
 
         [[params.skills.list]]
-        skill = "C++"
+        skill = "Javascript"
         level = "70%"
 
     # Footer section
