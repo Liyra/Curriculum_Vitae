@@ -31,7 +31,7 @@ disable404 = true
     # Profile section
     [params.profile]
         name = "Alexandre Deneuve"
-        tagline = "Software engineer"
+        tagline = "Remote software engineer"
         avatar = "profile.png"
 
     # Contact section
@@ -47,8 +47,8 @@ disable404 = true
         [[params.contact.list]]
         class = "phone"
         icon = "fa-phone"
-        url = "tel:+1 438 922 3822"
-        title = "+1 438 922 3822"
+        url = "tel:+1 438 409 1153"
+        title = "+1 438 409 1153"
 
         [[params.contact.list]]
         class = "linkedin"
@@ -128,7 +128,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "Software engineer with 3 years of experience, aiming at beign language agnostic: 1 year of C++, 1 year and a half of Java, 6 months of Python and familiar with best practices in the industry: CI/CD, TDD, Agile methodology. Eager to learn new technologies, and new languages. Bilingual French / English"
+        summary = "Software engineer with 5 years of experience, I work remotely from Canada. I have worked in multiple specialized industries (Finance, Mathematics and Video games) from developing and enhancing existing solution to bringing cloud hosting and best practices to everyone. Eager to learn new technologies, and new languages. Bilingual French / English"
 
     # Experiences section
     [params.experiences]
@@ -137,8 +137,14 @@ disable404 = true
         title = "Experiences"
 
         [[params.jobs.list]]
+        position = "Online Programmer"
+        dates = "Jun 2019 - Present"
+        company = "Ubisoft, Montréal, Canada"
+        details = "Working on a pipeline solution handling from the creation of a backend service until his deployment in AWS ECS, with a fully fledged monitoring and log integration (Grafana, ELS).\nMaintaining and developing this solution to handle the multiple uses cases of new and old back-end services.\n\nI am also promoting best practices around back-end services projects, such as how to manage efficiently auto-scaling on services, or making sure your design is compatible with micro-services and auto-scaling. I help resolve incidents when needs be, a provide external insight and debugging help on demand.\n\nWriting and planning multiple releases for the team, adapting to newcomers providing help, making sure to close deliverables.\nI upgraded the whole project documentation by working closely with a technical writer, and I interact daily with technical and non-technical people alike.\nI made technical presentations to help other team or new members how to get started in AWS, and how we use it in our case."
+
+        [[params.jobs.list]]
         position = "Software Developer"
-        dates = "Jan 2018 - Present"
+        dates = "Feb 2018 - May 2019"
         company = "Expertus Technologies, Montréal, Canada"
         details = "Creation of a serverless web application, with CI/CD pipeline on AWS solutions. R&D software development in Python 3 with Amazon Web Services (Lambda, S3, API Gateway and Route53).\n\nCreation of CI/CD pipeline, monitoring and alerting (Prometheus, Grafana, LogStash) solutions on AWS cluster. DevOps, Kafka, Docker, Jenkins, Kubernetes, Prometheus, ELK, AWS, Spring Boot, Java 8 & Python 3.\n\nMigration WebSphere6 to Jboss/Wildfly, software maintenance on production application IBM WAS/DB2"
 
@@ -158,23 +164,18 @@ disable404 = true
     [params.projects]
         enable = true
         icon = "fa-archive"
-        title = "Projects"
-        intro = "Heavily reporting bugs and suggestions to all the open source libraries used over the differents projects worked on."
+        title = "Volunteer experience"
+        intro = "Involved in multiple local communities, especially musical bands."
 
         [[params.projects.list]]
-        title = "Currimculum Vitae"
-        url = "https://github.com/Liyra/Curriculum_Vitae"
-        tagline = "Curriculum Vitae website."
+        title = "Union Musicale de Montville"
+        url = "https://ummecoledemusique.blogspot.com/"
+        tagline = "Member of a local music school for more than 15 years, former member of the board of directors for 3 years."
 
         [[params.projects.list]]
-        title = "Archive script"
-        url = "https://github.com/Liyra/ArchiveScript"
-        tagline = "Script to download resources from archives websites."
-
-        [[params.projects.list]]
-        title = "Test Expertus"
-        url = "https://github.com/Liyra/SpringWebsite"
-        tagline = "Test done for recruitment process."
+        title = "Montréal New Horizons Band"
+        url = "https://nhmontreal-en.weebly.com/"
+        tagline = " Member of this local band to help maintain and organize services, events and more! Member of the board of directors for more than a year."
 
     # Skills section
     [params.skills]
@@ -187,7 +188,7 @@ disable404 = true
         level = "98%"
 
         [[params.skills.list]]
-        skill = "Java"
+        skill = "Amazon Web Services"
         level = "98%"
 
         [[params.skills.list]]
@@ -195,7 +196,7 @@ disable404 = true
         level = "90%"
 
         [[params.skills.list]]
-        skill = "Amazon Web Services"
+        skill = "Java"
         level = "80%"
 
         [[params.skills.list]]
@@ -204,7 +205,7 @@ disable404 = true
 
         [[params.skills.list]]
         skill = "Javascript"
-        level = "70%"
+        level = "50%"
 
     # Footer section
 
